@@ -1,0 +1,34 @@
+
+
+.default-theme {
+    background-color: #c6c6c6;    
+}
+
+.default-theme-black {
+    background-color: #282828;
+    color: #c6c6c6;
+}
+
+.theme1 {
+    background-color: #c3a17f;
+}
+
+.theme2 {
+    background-color: #e1e5ff;
+}
+
+.theme3 {
+    background-color: #e9ffe1;
+}
+
+.theme4 {
+    background-color: #ffe3e1; 
+}
+
+.wood {
+    background-image: url('../../storage/wood/fondo.jpg');
+}
+
+.ice {
+    background-image: url('../../storage/ice/fondo.jpg');
+}

@@ -1,0 +1,107 @@
+
+html, body {
+    overflow-x: hidden;
+}
+
+.contenedor{
+    padding: 2em;
+}
+
+#filtros {
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    /* width: 250px;  */
+    /* height: max-content; */
+}
+
+#filtros .form-label {
+    font-weight: bold;
+    color: #333;
+}
+
+/* #filtros .form-control {
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    width: 100%;
+} */
+
+/* #filtros .form-control:hover {
+    border-color: #888;
+} */
+
+#filtros .btn {
+    background-color: #5b5b5b;
+    color: #fff;
+    font-weight: bold;
+    padding: 12px;
+    border-radius: 5px;
+    border: none;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+#filtros .btn:hover {
+    background-color: #363636;
+}
+
+@media (max-width: 768px) {
+    #filtros {
+        padding: 15px;
+        max-width: 300px;
+    }
+
+    #filtros .form-control {
+        font-size: 14px;
+    }
+
+    #filtros .btn {
+        font-size: 16px;
+        padding: 10px;
+    }
+}
+
+#tabla-usuarios {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+#tabla-usuarios thead {
+    background-color: #333;
+    color: #fff;
+    font-weight: bold;
+}
+
+#tabla-usuarios th,
+#tabla-usuarios td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+#tabla-usuarios tbody tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+#tabla-usuarios tbody tr:nth-child(even) {
+    background-color: #ffffff;
+}
+
+#tabla-usuarios tbody tr:hover {
+    background-color: #eaeaea;
+}
+
+@media (max-width: 768px) {
+    #tabla-usuarios {
+        font-size: 14px;
+        margin-left: 0;
+    }
+
+    #tabla-usuarios thead {
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,240 @@
+
+.contenedor{
+    padding: 5%;
+}
+
+#areasTexto{
+    opacity: 85%;
+}
+
+/* Tema por defecto */
+.default-theme tr:nth-child(odd) td:nth-child(odd),
+.default-theme tr:nth-child(even) td:nth-child(even) {
+    background-color: #404040;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Espaciado entre los enlaces */
+    margin-top: 20px; /* Separación superior */
+}
+
+.page-item {
+    list-style: none;
+}
+
+.page-link {
+    display: inline-block;
+    padding: 10px 15px;
+    color: #007bff; /* Color del enlace */
+    text-decoration: none;
+    border: 1px solid #ddd; /* Borde */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.page-link:hover {
+    background-color: #007bff;
+    color: #fff; /* Color de texto en hover */
+    text-decoration: none;
+}
+
+.page-item.active .page-link {
+    background-color: #007bff; /* Color de fondo activo */
+    color: #fff; /* Color de texto activo */
+    border-color: #007bff; /* Borde activo */
+}
+
+.page-item.disabled .page-link {
+    color: #6c757d; /* Color deshabilitado */
+    pointer-events: none; /* Deshabilitar clic */
+    background-color: #f8f9fa; /* Fondo deshabilitado */
+}
+
+
+.default-theme #estilo2 {
+    background-color: #fff;
+}
+
+.default-theme #estilo1{
+    background-color: #c6c6c6;
+}
+
+.default-theme-black tr:nth-child(odd) td:nth-child(odd),
+.default-theme-black tr:nth-child(even) td:nth-child(even) {
+    background-color: #000000;
+}
+
+.default-theme-black #estilo2 {
+    background-color: #5b5b5b;
+}
+
+.default-theme-black #estilo1{
+    background-color: #282828;
+}
+
+/* Tema 1 */
+.theme1 tr:nth-child(odd) td:nth-child(odd),
+.theme1 tr:nth-child(even) td:nth-child(even) {
+    background-color: #b58863;
+}
+
+.theme1 #estilo2 {
+    background-color: #f0d9b5;
+}
+
+.theme1 #estilo1{
+    background-color: #c3a17f;
+}
+
+/* Tema 2 */
+.theme2 tr:nth-child(odd) td:nth-child(odd),
+.theme2 tr:nth-child(even) td:nth-child(even) {
+    background-color: #002e8b;
+}
+
+.theme2 #estilo2 {
+    background-color: #cbffff;
+}
+
+.theme2 #estilo1{
+    background-color: #e1e5ff;
+}
+
+.theme3 tr:nth-child(odd) td:nth-child(odd),
+.theme3 tr:nth-child(even) td:nth-child(even) {
+    background-color: #008b07;
+}
+
+.theme3 #estilo2 {
+    background-color: #ceffcb;
+}
+
+.theme3 #estilo1{
+    background-color: #e9ffe1;
+}
+
+.theme4 tr:nth-child(odd) td:nth-child(odd),
+.theme4 tr:nth-child(even) td:nth-child(even) {
+    background-color: #8b0000;
+}
+
+.theme4 #estilo2 {
+    background-color: #ffcbcb;
+}
+
+.theme4 #estilo1{
+    background-color: #ffe3e1; 
+}
+
+/* Tema Wood */
+.wood tr:nth-child(odd) td:nth-child(odd),
+.wood tr:nth-child(even) td:nth-child(even) {
+    background-image: url('../../storage/wood/oscuro.png');
+}
+
+.wood #estilo2 {
+    background-image: url('../../storage/wood/claro.png');
+}
+
+.wood #estilo1{
+    background-image: url('../../storage/wood/fondo.jpg');
+}
+
+.ice #estilo3 {
+    background-image: url('../../storage/ice/FN.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.ice #estilo2 {
+    background-image: url('../../storage/ice/FB.png');
+    background-size: 105%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.ice #estilo1{
+    background-image: url('../../storage/ice/fondo.jpg');
+}
+
+#logo {
+    background-image: url('../../storage/icons/logo.png');
+}
+
+.pagination-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.pagination-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.pagination-item {
+    display: inline-block;
+}
+
+.pagination-link {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.pagination-link:hover {
+    background-color: #0056b3;
+}
+
+.disabled {
+    color: #aaa;
+}
+
+.pagination-info {
+    text-align: center;
+}
+
+.pagination-pages {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.page-group {
+    display: inline-flex;
+    gap: 5px;
+}
+
+.page-link, .page-current {
+    padding: 6px 12px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.page-link {
+    background-color: #f1f1f1;
+    color: #333;
+}
+
+.page-link:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.page-current {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.page-separator {
+    margin: 0 10px;
+}
